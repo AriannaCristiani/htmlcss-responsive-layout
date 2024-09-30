@@ -1,0 +1,36 @@
+/* reset */
+:root {
+    --dark-yellow: #ffc400;
+    --pale-lilac: #b0aeb1;
+    --lilac: #c37ae0;
+    --black: #000000;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
+}
+
+header {
+    font-family: 'Nerko One';
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
