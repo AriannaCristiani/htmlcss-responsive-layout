@@ -1,7 +1,7 @@
 /* reset */
 :root {
     --Orange: #ffae00;
-    --pale-lilac: #d1d1d1;
+    --pale-lilac: #e2d4eead;
     --lilac: #c37ae0;
     --violet: #482c53;
     --black: #000000;
@@ -47,7 +47,30 @@ body {
 
 /* media queries */
 
+/* desktop */
+@media (min-width: 992.99px) {
+    .recipe-title-mobile {
+        display: none;
+    }
+}
+
 /* tablet */
+
+@media (max-width: 991.99px) {
+    .recipe-title-mobile {
+        display: none;
+    }
+
+    .recipe {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+   
+}
+
 
 /* mobile */
 
@@ -57,6 +80,22 @@ body {
     .main-header {
         text-align: center;
     }
+
+    .recipe {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .recipe-title {
+        display: none;
+    }
+
+    .recipe-title-mobile {
+        display: contents;
+    }
+
+
 
 }
 
@@ -79,13 +118,8 @@ body {
 
 .conatiner {
     max-width: 100%;
-    margin: 0 auto;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .hero {
     padding: 40px 150px;
@@ -105,20 +139,21 @@ body {
 
 .recipe {
     display: flex;
-    margin-top: 20px;  
+    margin-top: 20px;
+
 }
 
 .recipe-title {
     color: var(--violet);
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.recipe-title-mobile {
+    color: var(--violet);
 }
 
 .recipe-title-sm {
     color: var(--violet);
     font-size: 10px;
     filter: opacity(50%)
-    
 }
-
-
-
