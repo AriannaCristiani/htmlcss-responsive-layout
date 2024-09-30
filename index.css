@@ -1,7 +1,7 @@
 /* reset */
 :root {
-    --dark-yellow: #ffc400;
-    --pale-lilac: #b0aeb1;
+    --Orange: #ffae00;
+    --pale-lilac: #d1d1d1;
     --lilac: #c37ae0;
     --black: #000000;
     --white: #ffffff;
@@ -33,4 +33,37 @@ ol {
 
 img {
     max-width: 100%;
+}
+
+body {
+    background-color: var(--pale-lilac);
+}
+
+/* media queries */
+
+/* tablet */
+
+/* mobile */
+
+
+@media (max-width:767.99px) {
+
+    .main-header {
+        text-align: center;
+    }
+
+}
+
+
+/* header */
+
+.main-header {
+    background-color: var(--white);
+    width: 100%;
+}
+
+.logo {
+    font-size: 25px;
+    color: var(--Orange);
+    text-shadow: 2px 2px 2px #8b8b8b;
 }
