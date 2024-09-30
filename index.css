@@ -33,9 +33,6 @@ ol {
     padding: 15px 0px;
 }
 
-li {
-    margin-top: 10px;
-}
 
 img {
     max-width: 100%;
@@ -122,6 +119,25 @@ body {
     padding: 10px 20px;
     width: 100%;
     
+}
+
+/* social */
+
+.social-menu {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+}
+
+.btn {
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 50%;
+    text-align: center;
+    padding: 10px 30px;
 }
 
 
