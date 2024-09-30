@@ -156,7 +156,7 @@ body {
     }
 
     .recipe-info  {
-        width: 77%;
+        width: 100%;
         font-size: 15px;
        
     }
@@ -212,6 +212,15 @@ body {
 
     .recipe-title-mobile {
         display: contents;
+    }
+
+    
+    .menu {
+        font-size: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 0px;
     }
 
 }
