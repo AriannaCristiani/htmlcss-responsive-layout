@@ -67,6 +67,16 @@ body {
         flex-direction: column;
     }
 
+    .recipe-video {
+        width: 100%;
+    }
+
+    .recipe-info {
+        width: 100%;
+    }
+
+
+
 
    
 }
@@ -86,6 +96,17 @@ body {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
+    
+    .recipe-video {
+        width: 100%;
+    }
+
+    .recipe-info {
+        width: 100%;
+    }
+
+
 
     .recipe-title {
         display: none;
@@ -139,6 +160,7 @@ body {
 
 .recipe {
     display: flex;
+    flex-wrap: wrap;
     margin-top: 20px;
 
 }
