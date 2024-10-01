@@ -135,7 +135,7 @@ body {
 .btn {
     background-color: var(--white);
     color: var(--black);
-    border-radius: 50%;
+    border-radius: 999px;
     text-align: center;
     padding: 10px 30px;
 }
